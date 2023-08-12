@@ -1,14 +1,39 @@
 .pic {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 }
 
+.burger {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.spaghetti {
+  width: 500px;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
 
 h2 {
-    
-    font-weight:900;
-    text-decoration: underline;
-    font-family: "Helvetica", "Verdana", sans-serif;
+  font-weight: 900;
+  text-decoration: underline;
+  font-family: "Helvetica", "Verdana", sans-serif;
+}
 
+#title {
+  text-align: center;
+}
+
+#page {
+  text-align: center;
+  display: block;
 }
